@@ -4,9 +4,9 @@ layout: default
 
 <div class="home">
   <!-- <h1 class="page-heading">Posts</h1> -->
-  <ul class="post-list">
+  <ul class="post-list" id="scienceScene">
     {% for post in site.posts %}
-      <li>
+      <li class="layer" data-depth="0.05">
         {% if post.avatar %}
           <img src="{{ post.avatar }}" class="image-bg">
         {% else %}

@@ -9,6 +9,8 @@
 
 .post-list {
 	li {
+		position : relative !important;
+		display : inline-block !important; 
 		width : 20rem;
 		height : 20rem;
 		margin : 0 1rem;
@@ -47,6 +49,12 @@
 			&:hover {
 				text-decoration : none;
 			}
+			&:visited {
+				color : white;
+				&:hover {
+					color : black;
+				}
+			}
 		}
 	}
 
@@ -56,6 +64,11 @@
 		padding-left: 2rem; 
 		padding-top : 2rem; 
 		position : relative; 
+		font-family : "Roboto", sans-serif !important;  
+	}
+	&-title {
+		font-family : 'RobotoLight', sans-serif;
+		text-transform : uppercase;  
 	}
 }
 
