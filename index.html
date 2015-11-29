@@ -6,7 +6,7 @@ layout: default
   <!-- <h1 class="page-heading">Posts</h1> -->
   <ul class="post-list" id="scienceScene">
     {% for post in site.posts %}
-      <li class="layer" data-depth="0.05">
+      <li class="layer" data-depth="{{ post.depth }}">
         {% if post.avatar %}
           <img src="{{ post.avatar }}" class="image-bg">
         {% else %}
