@@ -12,7 +12,7 @@ I have two majors degree, bachelor of science in computer science and mathematic
 ###Skills
 
 #### Web Development : 
-Web development, HTML, CSS, Javascript, Bootstrap framework, Foundation Framework, PHP, MySql, Grunt JS, Gulp (also with laravel-elixir package), Sass/Scss, jQuery Framework, Laravel Framework (4.*, 5.* ) , Codeigniter Framework, NodeJS, SailsJS Framework, Redis (usually used redis for cache, session, and queue), Ruby on Rails, GreensockJS Animation, MongoDB, AngularJS, ReactJS, Facebook API, Twitter API, Instagram API, Google Plus API, Google Map API, API Development and Integrating, REST API, Linode, Digital Ocean, AWS, installation and setting Apache2, Nginx, HHVM, Python Django Framework.
+HTML, CSS, Javascript, Bootstrap framework, Foundation Framework, PHP, MySql, Grunt JS, Gulp (also with laravel-elixir package), Sass/Scss, jQuery Framework, Laravel Framework (4.*, 5.* ) , Codeigniter Framework, NodeJS, SailsJS Framework, Redis (usually used redis for cache, session, and queue), GreensockJS Animation, MongoDB, AngularJS, ReactJS, Facebook API, Twitter API, Instagram API, Google Plus API, Google Map API, API Development and Integrating, REST API, Linode, Digital Ocean, AWS, installation and setting Apache2, Nginx, HHVM, Python Django Framework.
 
 ####Mobile Development :  
 PhoneGap, Cordova, Ionic Framework, Native Java Android(Beginner)

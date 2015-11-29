@@ -15,6 +15,11 @@ url: "http://kukuhpro.github.io" # the base hostname & protocol for your site
 twitter_username: kukuhprb
 github_username:  kukuhpro
 
+# Meta Setting
+meta-title: kukuhpro.github.io
+meta-description: Fell new way of life for being programmer.
+meta-image: /assets/img/no-picture.png
+
 # Build settings
 markdown: kramdown
 include: [assets]

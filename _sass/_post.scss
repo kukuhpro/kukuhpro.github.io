@@ -1,5 +1,8 @@
 .home {
-	padding : 1rem;
+	padding : 1rem 0.5rem;
+	@media screen and (max-width: 40em) {
+		padding-left : 0; 
+	}
 }
 
 .page-heading {
@@ -13,7 +16,10 @@
 		display : inline-block !important; 
 		width : 20rem;
 		height : 20rem;
-		margin : 0 1rem;
+		margin : 0 0.5rem;
+		@media screen and (max-width: 40em) {
+			margin-left : 0;	 
+		}
 		position : relative; 
 		overflow : hidden; 
 		z-index : 3;
@@ -36,7 +42,10 @@
 			color : black;
 		}
 	}
-
+	&-header {
+		padding-left : 2rem;
+		padding-top : 2rem;  		
+	}
 	&-link {
 		position : relative;
 		display : block; 

@@ -10,8 +10,12 @@
 	color : black;
 	background-color : white;
 
-	height : 100%;
-	position : fixed;
+	@media screen and (min-width: 40em) {
+		position : fixed;
+		height : 100%;
+	}
+	height : 30rem; 
+	position : relative;
 	h4 {
 		font-family : 'RobotoLight', sans-serif;
 		text-transform : uppercase;

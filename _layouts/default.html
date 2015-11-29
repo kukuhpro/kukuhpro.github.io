@@ -7,7 +7,7 @@
 
   <!-- <div class="row"> -->
     {% include header.html %}
-    <div class="large-10 large-offset-2 columns content">
+    <div class="small-12 large-10 large-offset-2 columns content">
       <div class="wrapper">
         {{ content }}
       </div>
@@ -22,7 +22,10 @@
     <script type="text/javascript">
       $(document).foundation();
       var el = document.getElementById('scienceScene');
-      var par = new Parallax(el);
+      var width = $(window).width()
+      if (width >= 1200) {
+        var par = new Parallax(el);
+      }
     </script>
   </body>
 
