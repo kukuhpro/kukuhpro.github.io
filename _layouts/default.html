@@ -5,16 +5,22 @@
 
   <body>
 
+  <!-- <div class="row"> -->
     {% include header.html %}
-
-    <div class="page-content">
+    <div class="large-10 large-offset-2 columns content">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
+  <!-- </div> -->
+    <!--{% include footer.html %} -->
 
-    {% include footer.html %}
-
+    <script src="{{ "/assets/js/vendor/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/vendor/what-input.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/foundation.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript">
+      $(document).foundation();
+    </script>
   </body>
 
 </html>

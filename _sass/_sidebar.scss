@@ -1,0 +1,40 @@
+.avatar {
+	border-radius : 100%;
+	width : 5rem; 
+	height : 5rem;
+	display : inline-block;
+}
+
+.sidebar {
+	padding : 2rem 2rem;
+	color : black;
+	background-color : white;
+
+	height : 100%;
+	position : fixed;
+	h4 {
+		font-family : 'RobotoLight', sans-serif;
+		text-transform : uppercase;
+	} 
+}
+
+.navigation-menu {
+	padding-top : 2rem; 
+	margin-left : 0;  
+	li {
+		display : block;
+		padding : 0.5rem;
+		a {
+			font-family : 'Roboto', sans-serif;
+			text-transform : uppercase;   
+			color :  $dark_grey_color;
+			cursor : pointer;
+			@include transition(all 400ms ease-in-out);
+			&:hover {
+				color : black;
+				font-weight : bold; 
+				text-decoration : none; 
+			}
+		}
+	}
+}
