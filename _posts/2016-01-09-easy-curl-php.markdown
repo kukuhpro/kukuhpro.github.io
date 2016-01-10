@@ -117,7 +117,7 @@ var_dump($data); // dump this data
 
 Well, it just four steps to use this package, how easy is that. 
 
-But I know this is package also need some improvements so if you want make this package more awesome then just visit [this github page](http://https://github.com/kukuhpro/curl-abstract) and create a pull request, i'll makes sure your pull request is gonna make this package more awesome.
+But I know this is package also need some improvements so if you want make this package more awesome then just visit [this github page](https://github.com/kukuhpro/curl-abstract) and create a pull request, i'll makes sure your pull request is gonna make this package more awesome.
 
 ### Laravel Way
 {% highlight ruby %}
