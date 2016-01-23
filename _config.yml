@@ -22,4 +22,4 @@ meta-image: /assets/img/no-picture.png
 
 # Build settings
 markdown: kramdown
-include: [assets]
+include: [assets,game]

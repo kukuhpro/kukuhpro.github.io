@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+  <!-- <div class="row"> -->
+    {% include header.html %}
+    <div class="small-12 large-10 large-offset-2 columns content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+  <!-- </div> -->
+    <!--{% include footer.html %} -->
+
+    <script src="{{ "/assets/js/vendor/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/vendor/what-input.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/foundation.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/parallax.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript">
+      $(document).foundation();
+      var el = document.getElementById('scienceScene');
+      var width = $(window).width()
+      if (width >= 1200) {
+        var par = new Parallax(el);
+      }
+    </script>
+    <script src="{{ "/game/js/resources.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/game/js/app.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/game/js/engine.js" | prepend: site.baseurl }}"></script>
+  </body>
+
+</html>
