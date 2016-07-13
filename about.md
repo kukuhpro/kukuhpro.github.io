@@ -27,4 +27,4 @@ Auto Deployment (deployHQ, dploy.io, etc), SVN, Github, Bitbucket, Linux CLI, We
 ####Software : 
 Adobe Photoshop, Adobe Dreamweaver, Sublime Text 2 & 3,  Notepad ++, MongoVUE, SQLYog, SoapUI, Atlassian Source Tree, Putty SSH Client, Microsoft Office Tools, Google Analytics, WordPress.
 
-You can contact me via [Twitter](http://twitter.com/kukuhprb), [Facebook](https://www.facebook.com/kukuh.prabowo.9) or follow my Instagram account, Github Page Or Simply send me an email to kukuhpro@gmail.com.
+You can contact me via [Twitter](http://twitter.com/kukuhprb), [Facebook](https://www.facebook.com/kukuh.prabowo.9) or follow my Instagram account, [Github Page](https://github.com/kukuhpro) Or Simply send me an email to kukuhpro@gmail.com.
