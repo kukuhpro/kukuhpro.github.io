@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-###Story
+### Story
 
 My name is Kukuh Prabowo, I am co-founder of tech company [Imagine Plus](http://imagineplus.co.id), right know i’m also working as Web developer in Indonesian, So its giving me varied skills for web development and the ability to work with many different types of person .
 
