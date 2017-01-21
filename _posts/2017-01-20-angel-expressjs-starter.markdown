@@ -82,6 +82,28 @@ class home extends controller {
 module.exports = home;
 {% endhighlight %}
 
+Here some options in your controller that you can do 
+{% highlight javascript %}
+	// redirect to url `/form` 
+	return this.res.redirect('/form');
+
+	// redirect to specific routing with an alias `angelsite` 
+	return this.res.redirect(this.url.route('angelsite'));
+
+	// redirect to your previous url
+	return this.back();
+
+	// access `.env.json` file
+	var AppName = this.env.appName
+
+	// sending email
+	this.mailsend(data, function (err, info) {
+		// do something on callback
+	}.bind(this));
+{% endhighlight %}
+
+
+
 
 
 
