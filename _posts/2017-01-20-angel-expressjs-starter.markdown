@@ -35,14 +35,14 @@ module.exports = [
 {% endhighlight %}
 
 On this route first key is declare as a method on route, and object on key are available options.
-```javascript
+{% highlight javascript %}
 {
 	post: {url: '/form-post', as: 'site.form.store', validation: 'LoginRequest', folder: 'new', uses: 'home@storeForm'}
 }
-``` 
+{% endhighlight %}
 
 you can also add group routing, in case you need to add prefix, middleware, or even folder.
-```javascript
+{% highlight javascript %}
 {
 	group: {
 		options: {prefix: '/secure', middleware: [], folder: 'site'},
@@ -53,15 +53,15 @@ you can also add group routing, in case you need to add prefix, middleware, or e
 		]
 	}
 }
-```
+{% endhighlight %}
 
 ### Controllers :
 Controller in Angel starter is inside folder `app\controllers`, for example let's just say you have this on route : 
-```javascript
+{% highlight javascript %}
 {
 	get: {url: '/', folder: 'site', uses: 'home@index'}
 }
-```
+{% endhighlight %}
 on this route it will say like this `find controller method function index in class controller home inside folder site`, so basically we will need class controller inside folder site. This how class controller home `home.js` looks like inside folder site.
 
 {% highlight javascript %}
