@@ -12,4 +12,4 @@ Use your arrow keys on keyboard to move up, down, left, and right.
 
 The game is simple just move the player without hitting the bug.
 
-##Enjoy !!! 
+## Enjoy !!! 
